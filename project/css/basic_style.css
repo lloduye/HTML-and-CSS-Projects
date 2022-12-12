@@ -17,10 +17,18 @@ h1 {
 }
 
 /*
+<<<<<<< Updated upstream
 SELECT ALL SQUARES IN ARRAY*/
 
 .container .squares:nth-child(-n+4) {
     background-image: url("../images/icons/smileyface2.png");
+=======
+SELECT ALL SQUARES IN THE ARRAY
+*/
+
+.container .squares:nth-last-child(-4+N) {
+    background-image: url("../images/");
+>>>>>>> Stashed changes
     color: #fff;
     float: left;
     width: 100px;
