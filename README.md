@@ -17,7 +17,7 @@ It contains many Bootstrap components including but not limited to navbar, jumbo
 3. Student Portfolio Website
 I updated a template shared and with my information and changed the text choice, images, links and color outline of the website. I used HTML and CSS to update this site. 
 
-Web dev languages
+Web dev languages used
 -HTML
 -CSS
 
