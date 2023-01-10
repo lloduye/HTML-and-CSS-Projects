@@ -11,8 +11,14 @@ input[type="text"], [type="email"], [type="number"], [type="date"], [type="tel"]
     border-radius: 4px;
 }
 
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
 .row > .column {
-    padding: 0 8px;
+    padding: 20px 20px;
   }
   
   .row:after {
