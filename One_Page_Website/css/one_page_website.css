@@ -15,6 +15,7 @@ input[type="text"], [type="email"], [type="number"], [type="date"], [type="tel"]
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
+    align-items: center;
 }
 
 .row > .column {
