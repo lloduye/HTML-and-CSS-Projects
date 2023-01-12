@@ -34,7 +34,75 @@
 		<div>
 			<div>
 				<h2>Home to the great wildebeest migration</h2>
-				<img src="https://www.serengeti.com/assets/img/great-migration-serengeti-tanzania.jpg"  height="500">
+				<!-- Images used to open the lightbox -->
+					<div class="row">
+						<div class="column">
+							<img src="images/thumb/Wild_1.jpg" height="250px" width="500" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						</div>
+						<div class="column">
+							<img src="images/thumb/Wild_2.jpg" height="250px" width="500" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						</div><br>
+						<div class="column">
+							<img src="images/thumb/Wild_3.jpg" height="250px" width="500" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						</div>
+						<div class="column">
+							<img src="images/thumb/Wild_4.jpeg" height="250px" width="500" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						</div>
+					</div>
+					
+					<!-- The Modal/Lightbox -->
+					<div id="myModal" class="modal">
+						<span class="close cursor" onclick="closeModal()">&times;</span>
+						<div class="modal-content">
+					
+						<div class="mySlides">
+							<div class="numbertext">1 / 4</div>
+							<img src="images/thumb/Wild_1.jpg" style="width:100%">
+						</div>
+					
+						<div class="mySlides">
+							<div class="numbertext">2 / 4</div>
+							<img src="images/thumb/Wild_2.jpg" style="width:100%">
+						</div>
+					
+						<div class="mySlides">
+							<div class="numbertext">3 / 4</div>
+							<img src="images/thumb/Wild_3.jpg" style="width:100%">
+						</div>
+					
+						<div class="mySlides">
+							<div class="numbertext">4 / 4</div>
+							<img src="images/thumb/Wild_4.jpeg" style="width:100%">
+						</div>
+					
+						<!-- Next/previous controls -->
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					
+						<!-- Caption text -->
+						<div class="caption-container">
+							<p id="caption"></p>
+						</div>
+					
+						<!-- Thumbnail image controls -->
+						<div class="column">
+							<img class="demo" src="images/thumb/Wild_1.jpg" style="max-width: 100%;" onclick="currentSlide(1)" alt="Elephants">
+						</div>
+					
+						<div class="column">
+							<img class="demo" src="images/thumb/Wild_2.jpg" style="max-width: 100%;" onclick="currentSlide(2)" alt="Night Camp">
+						</div>
+					
+						<div class="column">
+							<img class="demo" src="images/thumb/Wild_3.jpg" style="max-width: 100%;" onclick="currentSlide(3)" alt="Grazelands">
+						</div>
+					
+						<div class="column">
+							<img class="demo" src="images/thumb/Wild_4.jpeg" style="max-width: 100%;" onclick="currentSlide(4)" alt="Wildebeest and tourist">
+						</div>
+						</div>
+					</div>
+				<!--<img src="https://www.serengeti.com/assets/img/great-migration-serengeti-tanzania.jpg"  height="500">-->
 			</div>
 
 			<div id="about">
@@ -106,8 +174,9 @@
 
 	<footer>
 		<img src=./images/thumb/serengeti-national-park-logo.png
-			 alt="Serengeti National Park logo">
+			 alt="Serengeti National Park logo"> <br>
 		&copy 2022 SERENGETI.COM &nbsp;| &nbsp; ALL RIGHTS RESERVED
 	</footer>
+	<script src="js/one_page_website.js" defer></script>
 </body>
 </html>
